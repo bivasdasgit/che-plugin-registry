@@ -10,11 +10,8 @@
 name: Sidecar Build/Push
 on:
   push:
-    paths:
-      - 'sidecars/**'
     branches:
       - master
-
 jobs:
    build:
     runs-on: ubuntu-20.04
